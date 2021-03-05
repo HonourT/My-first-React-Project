@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#first{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+}
+#timer{ 
+    float: right;
+    padding-right:  5px;
+
+}
+#op{ 
+  float: right;
+  padding-right:  5px;
+
+}
+#mode{ 
+  float: left;
+  padding-left:  5px;
+}
+#clock{
+  font-size:xx-large ;
+}
+
+
+
+#top {
+	width: 100px;
+	height: 100px;
+	background-color: #333;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+#top {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;  
+  /* position:relative; */
+  height: 22%;
+    width: 70%;
+  /* position:relative; */
+  margin: 0 auto;
+  padding: 0px;
+  border: 0px;
+  float:right;
+  /* float: left; */
+
+}
+
+
+
+
+
+
+.marker {
+  background-image: url('./imgs/mall.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker1 {
+  background-image: url('./imgs/university1.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker2 {
+  background-image: url('./imgs/church.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker3 {
+  background-image: url('./imgs/legislature.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker4 {
+  background-image: url('./imgs/airport.jpg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker5 {
+  background-image: url('./imgs/fast-food.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker6 {
+  background-image: url('./imgs/home.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.marker7 {
+  background-image: url('./imgs/grocery-store.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
